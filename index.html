@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Infinite scroll</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Script -->
+    <h1>Unsplash API - Infinite scroll</h1>
+    <div class="loader" id="loader" hidden>
+        <img src="spinner.svg" alt="loading">
+    </div>
+    <div class="image-container" id="image-container"></div>
     <script src="script.js"></script>
 </body>
 </html>
